@@ -1,5 +1,5 @@
 <center>
-    <img src="hummble.github.io/hummble/public/images/hummmble.png">
+    <img src="https://hummble.github.io/hummble/public/images/hummble.png">
     <h3>Hummble Communities</h3>
 </center>
 
