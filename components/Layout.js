@@ -1,5 +1,4 @@
 import React from 'react';
-import theme from '../styles/theme';
 
 function Layout({ children }) {
     return (
@@ -7,7 +6,7 @@ function Layout({ children }) {
             {children}
             <style global jsx>{`
                 body {
-                    background-color: ${theme.colors.background};
+                    background-color: var(--color-background);
                     margin: 0;
                     padding: 0;
                 }
@@ -22,11 +21,11 @@ function Layout({ children }) {
                 }
 
                 a {
-                    color: ${theme.colors.link};
+                    color: var(--color-link);
                 }
 
                 a:hover {
-                    color: ${theme.colors.linkHover};
+                    color: var(--color-link-hover);
                 }
             `}</style>
         </div>

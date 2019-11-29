@@ -10,6 +10,8 @@ const theme = {
         text: `#333`,
         background: `#fff`,
         primary: `#e60e40`,
+        secondary: `#18243A`,
+        secondaryText: `#ffffff`,
         link: `#192f91`,
         linkHover: `#0a28ad`,
         border: `#eeeeee`,
