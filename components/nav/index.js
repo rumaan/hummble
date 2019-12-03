@@ -21,7 +21,7 @@ const Nav = () => (
     <style jsx>{`
      nav {
         background:  var(--color-secondary);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        box-shadow:  0 6px 15px rgba(62, 84, 100, 0.15);
       }
       .nav-contents {
         display: flex;
@@ -46,7 +46,7 @@ const Nav = () => (
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 15px 17px;
+        padding: 17px;
         color: var(--color-secondary-text-light);
         border-bottom: 2px solid transparent;
         transition: 0.3s all ease-in-out;
