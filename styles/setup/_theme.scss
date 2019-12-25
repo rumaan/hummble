@@ -1,33 +1,13 @@
 :root {
-
-    --font-family-sans: "Noto Sans KR", sans-serif;
-    --color-primary: #e60e40;
-    --color-secondary: rgb(255, 254, 254);
-    --color-secondary-text: rgb(20, 112, 216);
-    --color-secondary-text-light: rgba(18, 29, 44, 0.486);
-    --color-text: #18243A;
-    --color-text-light: rgba(24, 36, 58, 0.452);
-    --color-link: #192f91;
-    --color-link-hover: #0a28ad;
-    --color-border: #eee;
-    --color-hover-background: #fafafa;
+  --font-family-sans: "Noto Sans KR", sans-serif;
+  --color-primary: #e60e40;
+  --color-secondary: rgb(255, 254, 254);
+  --color-secondary-text: rgb(20, 112, 216);
+  --color-secondary-text-light: rgba(18, 29, 44, 0.486);
+  --color-text: #18243a;
+  --color-text-light: rgba(24, 36, 58, 0.452);
+  --color-link: #192f91;
+  --color-link-hover: #0a28ad;
+  --color-border: #eee;
+  --color-hover-background: #fafafa;
 }
-
-// */
-// const theme = {
-//     fontFamily: {
-//         sansSerif: ``
-//     },
-//     colors: {
-//         text: `#333`,
-//         background: `#fff`,
-//         primary: `#e60e40`,
-//         secondary: `#18243A`,
-//         secondaryText: `#ffffff`,
-//         link: `#192f91`,
-//         linkHover: `#0a28ad`,
-//         border: `#eeeeee`,
-//         warning: `#fff3cd`,
-//         success: `#d4edda`
-//     }
-// }

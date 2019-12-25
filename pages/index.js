@@ -1,7 +1,8 @@
-import React from 'react'
-import Head from 'next/head'
-import Nav from '../components/nav'
-import Container from '../components/container';
+import React from "react";
+import Head from "next/head";
+import Nav from "../components/nav";
+import Container from "../components/container";
+import withLayout from "../components/Layout";
 
 const Home = () => (
   <div>
@@ -16,6 +17,6 @@ const Home = () => (
       </Container>
     </div>
   </div>
-)
+);
 
-export default Home
+export default Home;
