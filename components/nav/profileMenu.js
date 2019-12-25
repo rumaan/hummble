@@ -1,28 +1,50 @@
-import React from 'react'
-import { MdStar, MdPerson, MdSettings, MdHelp, MdArrowBack } from 'react-icons/md'
+import {
+  MdStar,
+  MdPerson,
+  MdSettings,
+  MdHelp,
+  MdArrowBack
+} from "react-icons/md";
 
 function ProfileMenu() {
-    return (
-        <div className="menu-wrapper">
-            <div className="profile-area">
-                <img className="profile-pic" src="https://avatars0.githubusercontent.com/u/53584487?s=400&v=4" />
-                <div className="texts">
-                    <h4>Musthaq Ahamad</h4>
-                    <span><MdStar fontSize="15" style={{ marginRight: `5px` }} /> 0</span>
-                </div>
-            </div>
-            <div className="options-wrapper">
-                <div className="menu-options">
-                    <ul>
-                        <li><MdPerson fontSize="18" style={{ marginRight: `10px` }} />Profile</li>
-                        <li><MdSettings fontSize="18" style={{ marginRight: `10px` }} />Settings</li>
-                        <li><MdHelp fontSize="18" style={{ marginRight: `10px` }} />Help &amp; Support</li>
-                        <li><MdArrowBack fontSize="18" style={{ marginRight: `10px` }} />Logout</li>
-                    </ul>
-                    <p class="version-text">Hummble v1.0.1 Beta</p>
-                </div>
-            </div>
-            <style jsx>{`
+  return (
+    <div className="menu-wrapper">
+      <div className="profile-area">
+        <img
+          className="profile-pic"
+          src="https://avatars0.githubusercontent.com/u/53584487?s=400&v=4"
+        />
+        <div className="texts">
+          <h4>Musthaq Ahamad</h4>
+          <span>
+            <MdStar fontSize="15" style={{ marginRight: `5px` }} /> 0
+          </span>
+        </div>
+      </div>
+      <div className="options-wrapper">
+        <div className="menu-options">
+          <ul>
+            <li>
+              <MdPerson fontSize="18" style={{ marginRight: `10px` }} />
+              Profile
+            </li>
+            <li>
+              <MdSettings fontSize="18" style={{ marginRight: `10px` }} />
+              Settings
+            </li>
+            <li>
+              <MdHelp fontSize="18" style={{ marginRight: `10px` }} />
+              Help &amp; Support
+            </li>
+            <li>
+              <MdArrowBack fontSize="18" style={{ marginRight: `10px` }} />
+              Logout
+            </li>
+          </ul>
+          <p className="version-text">Hummble v1.0.1 Beta</p>
+        </div>
+      </div>
+      <style jsx>{`
 
             .menu-wrapper {
                 position: relative;
@@ -65,7 +87,7 @@ function ProfileMenu() {
                 flex-direction: row;
                 align-items: center;
             }
-            
+
             .menu-options li:first-child {
                 border-radius: 5px 5px 0 0;
             }
@@ -125,8 +147,8 @@ function ProfileMenu() {
             color: var(--color-secondary-text);
         }
         `}</style>
-        </div >
-    )
+    </div>
+  );
 }
 
-export default ProfileMenu
+export default ProfileMenu;
