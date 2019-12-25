@@ -1,11 +1,10 @@
-import React from "react";
 import "../styles/global.scss";
 
-// HOC to Wrap all pages
-function withLayout({ children }) {
+// HOC to apply global styles per page component
+const withLayout = Page => {
   return () => (
     <div>
-      {children}
+      <Page />
       <style global jsx>{`
         body {
           background-color: var(--color-background);
@@ -32,6 +31,6 @@ function withLayout({ children }) {
       `}</style>
     </div>
   );
-}
+};
 
 export default withLayout;

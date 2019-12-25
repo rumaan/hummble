@@ -1,15 +1,11 @@
-import React from "react";
-import Head from "next/head";
 import Nav from "../components/nav";
 import Container from "../components/container";
 import withLayout from "../components/Layout";
+import Helmet from "../components/seo/seo";
 
 const Home = () => (
   <div>
-    <Head>
-      <title>Home</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+    <Helmet title="Home" />
     <Nav />
     <div style={{ marginTop: `50px` }}>
       <Container>
@@ -19,4 +15,4 @@ const Home = () => (
   </div>
 );
 
-export default Home;
+export default withLayout(Home);

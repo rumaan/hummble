@@ -13,7 +13,6 @@ const Nav = () => (
   <nav>
     <Container>
       <div className="nav-contents">
-        {/* <h1 className="brand-title">hummble</h1> */}
         <div className="nav-menu">
           <Link href="/" activeClassName="active">
             <a>
@@ -40,61 +39,63 @@ const Nav = () => (
         </div>
       </div>
     </Container>
-    <style jsx>{`
-      nav {
-        background: var(--color-secondary);
-        box-shadow: 0 6px 15px rgba(62, 84, 100, 0.15);
-      }
+    <style jsx>
+      {`
+        nav {
+          background: var(--color-secondary);
+          box-shadow: 0 6px 15px rgba(62, 84, 100, 0.15);
+        }
 
-      .nav-contents {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        color: var(--color-secondary-text);
-      }
+        .nav-contents {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          color: var(--color-secondary-text);
+        }
 
-      .brand-title {
-        font-size: 1em;
-        color: var(--color-secondary-text);
-      }
+        .brand-title {
+          font-size: 1em;
+          color: var(--color-secondary-text);
+        }
 
-      .nav-menu {
-        margin: 0;
-        padding: 0px;
-        display: flex;
-        flex-direction: row;
-      }
+        .nav-menu {
+          margin: 0;
+          padding: 0px;
+          display: flex;
+          flex-direction: row;
+        }
 
-      .nav-menu a {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 17px;
-        color: var(--color-secondary-text-light);
-        border-bottom: 2px solid transparent;
-        transition: 0.3s all ease-in-out;
-      }
+        .nav-menu a {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 17px;
+          color: var(--color-secondary-text-light);
+          border-bottom: 2px solid transparent;
+          transition: 0.3s all ease-in-out;
+        }
 
-      .nav-menu .icon {
-        margin-right: 10px;
-      }
+        .nav-menu .icon {
+          margin-right: 10px;
+        }
 
-      .nav-menu a:hover {
-        color: var(--color-secondary-text);
-      }
+        .nav-menu a:hover {
+          color: var(--color-secondary-text);
+        }
 
-      .nav-menu a.active {
-        color: var(--color-secondary-text);
-        border-bottom: 2px solid var(--color-secondary-text);
-      }
+        .nav-menu a.active {
+          color: var(--color-secondary-text);
+          border-bottom: 2px solid var(--color-secondary-text);
+        }
 
-      .profile-menu {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-      }
-    `}</style>
+        .profile-menu {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+      `}
+    </style>
   </nav>
 );
 
