@@ -69,6 +69,7 @@ function ProfileMenu() {
 
             .menu-wrapper:hover > .options-wrapper {
                 display: flex;
+                transition: 0.3s all ease;
             }
 
             .menu-options ul {

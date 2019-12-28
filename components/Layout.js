@@ -7,7 +7,8 @@ const withLayout = Page => {
       <Page />
       <style global jsx>{`
         body {
-          background-color: var(--color-background);
+          /*background-color: var(--color-background);*/
+          background: var(--color-page-background);
           margin: 0;
           padding: 0;
         }
@@ -18,7 +19,7 @@ const withLayout = Page => {
         div#__next,
         div#__next > div,
         div#__next > div > div {
-          height: 100%;
+          /*height: 100%;*/
         }
 
         a {
