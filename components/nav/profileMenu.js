@@ -12,10 +12,10 @@ function ProfileMenu() {
       <div className="profile-area">
         <img
           className="profile-pic"
-          src="https://avatars0.githubusercontent.com/u/53584487?s=400&v=4"
+          src="https://avataaars.io/?avatarStyle=Transparent&topType=Eyepatch&facialHairType=BeardMedium&facialHairColor=BrownDark&clotheType=Hoodie&clotheColor=Gray01&eyeType=Dizzy&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Brown"
         />
         <div className="texts">
-          <h4>Musthaq Ahamad</h4>
+          <h4>Mr. Nibba</h4>
           <span>
             <MdStar fontSize="15" style={{ marginRight: `5px` }} /> 0
           </span>
@@ -55,6 +55,8 @@ function ProfileMenu() {
                 display: none;
                 top: 40px;
                 padding-top: 20px;
+                min-width: 160px;
+
             }
 
             .menu-wrapper .menu-options {
